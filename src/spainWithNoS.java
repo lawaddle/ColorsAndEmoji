@@ -1,11 +1,15 @@
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class testmore {
-    private List<Integer> list;
+public class spainWithNoS {
+    private List<Integer> list = new ArrayList<>(Arrays.asList([1,2,3]));
     private static final int SIZE = 10;
+
+    public spainWithNoS() {}
 
     public void writeList() {
 
