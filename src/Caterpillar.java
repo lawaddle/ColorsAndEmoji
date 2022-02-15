@@ -1,5 +1,7 @@
 // credit to Mr. Das for the code used in this example!
 
+import static java.awt.Color.blue;
+
 public class Caterpillar
 {
     // constants: these are "unicode" characters that
@@ -39,9 +41,10 @@ public class Caterpillar
         // search for emoji icons here:  https://www.fileformat.info/info/unicode/char/search.htm
         // when you find one you like, scroll down to "C/C++/Java source code" and copy/paste that string
         System.out.println("Pineapple: \uD83C\uDF4D");
-        System.out.println("Red apple: \uD83C\uDF4E");
-        System.out.println("Green apple: " + GREEN_APPLE_EMOJI);
+        System.out.println("Red apple: "+ RED +"\uD83C\uDF4E");
+        System.out.println("Green apple: " + BLUE + GREEN_APPLE_EMOJI);
         System.out.println("Clover: \uD83C\uDF40");
+        System.out.println(CYAN + "Cyan, " + BLUE + " Blue Chicken: \uD83D\uDC14");
     }
 
     // this method "throws exceptions" which is an
@@ -175,4 +178,6 @@ public class Caterpillar
         System.out.println(" ^ \"\" \"\" \"\" \"\" \"\" \"\"\"");
         System.out.println(RED + name + ": CHOMP CHOMP YUM!" + WHITE);
     }
+
+
 }
